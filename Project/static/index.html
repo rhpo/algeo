@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Timeline</title>
+    <link rel="stylesheet" href="Styling.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Wet+Paint&display=swap">
+
+</head>
+
+<body>
+
+    <h1 class="title" style="color: black"><a href="/">Algeo</a> &horbar; Historical Timeline</h1>
+
+    <div class="image-container">
+        <img id="eraImage" src="img70.jpg" alt="Era Image">
+    </div>
+    <div class="timeline-container">
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div> <!-- Progress bar to show height -->
+        </div>
+
+        <div class="timeline">
+            <div class="container left" onclick="updateProgress(10)">
+                <div class="content">
+                    <h2>3000 BC - 1000 BC</h2>
+                    <h3>Early Civilizations and Berber Identity</h3>
+                    <ul>
+                        <li><strong>Ancient Saharan Civilizations:</strong> The Sahara was once fertile, with rivers and
+                            lakes, and it supported ancient civilizations. Rock art in the Tassili n’Ajjer mountains
+                            (now a UNESCO World Heritage site) shows depictions of animals like elephants, giraffes, and
+                            cattle, indicating a green Sahara around 8,000 years ago.</li>
+                        <li><strong>Proto-Berber Cultures (around 2000 BC):</strong> Early Berber communities formed,
+                            skilled in agriculture and animal domestication.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container right" onclick="updateProgress(20)">
+                <div class="content">
+                    <h2>1100 - 146 BC</h2>
+                    <h3>Phoenician and Carthaginian Influence</h3>
+                    <ul>
+                        <li><strong>Phoenician Colonization:</strong> The Phoenicians established trading outposts along
+                            the North African coast, bringing culture and trade networks.</li>
+                        <li><strong>Rise of Carthage:</strong> Carthage, a Phoenician colony, rose to power and
+                            influenced Algeria’s coastal regions.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container left" onclick="updateProgress(30)">
+                <div class="content">
+                    <h2>202 - 46 BC</h2>
+                    <h3>The Numidian Kingdom</h3>
+                    <ul>
+                        <li><strong>Kingdom of Numidia:</strong> Numidia emerged as an independent Berber kingdom under
+                            King Massinissa, renowned for its cavalry and alliances with Rome.</li>
+                        <li><strong>Massinissa's Role:</strong> Massinissa united Berber tribes, creating a strong state
+                            that is remembered as a golden era in Algerian history.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container right" onclick="updateProgress(40)">
+                <div class="content">
+                    <h2>46 BC - 430 AD</h2>
+                    <h3>Roman Algeria</h3>
+                    <ul>
+                        <li><strong>Roman Provinces:</strong> Algeria’s lands became part of the Roman Empire, with
+                            cities like Timgad and Tipasa.</li>
+                        <li><strong>Berber Resistance:</strong> Rome struggled with Berber resistance from groups like
+                            the Mauri.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container left" onclick="updateProgress(50)">
+                <div class="content">
+                    <h2>430 - 700 AD</h2>
+                    <h3>Vandal and Byzantine Rule</h3>
+                    <ul>
+                        <li><strong>Vandal Invasion:</strong> The Germanic Vandals invaded Algeria, establishing a
+                            kingdom that controlled coastal cities.</li>
+                        <li><strong>Byzantine Influence:</strong> The Byzantine Empire re-conquered Algeria, but their
+                            control remained limited to coastal areas.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container right" onclick="updateProgress(60)">
+                <div class="content">
+                    <h2>700 - 1500 AD</h2>
+                    <h3>Islamic Conquest and Berber Dynasties</h3>
+                    <ul>
+                        <li><strong>Arrival of Islam:</strong> Arab Muslim armies reached Algeria in the 7th century,
+                            introducing Islam.</li>
+                        <li><strong>Berber Dynasties:</strong> By the 10th century, Berber dynasties like the Almoravids
+                            rose to power.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container left" onclick="updateProgress(70)">
+                <div class="content">
+                    <h2>1516 - 1830</h2>
+                    <h3>Ottoman Rule</h3>
+                    <ul>
+                        <li><strong>Integration with the Ottomans:</strong> Algeria became a semi-autonomous Ottoman
+                            province, ruled by a Dey.</li>
+                        <li><strong>Resistance to Foreign Invasions:</strong> The Ottoman period saw conflicts with
+                            pirates and internal resistance.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container right" onclick="updateProgress(80)">
+                <div class="content">
+                    <h2>1830 - 1954</h2>
+                    <h3>French Colonization</h3>
+                    <ul>
+                        <li><strong>Algerian Conquest:</strong> France invaded Algeria, establishing it as a colony.
+                        </li>
+                        <li><strong>World Wars and Nationalism:</strong> Colonial troops fought for France, and
+                            post-WWII nationalism grew.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container left" onclick="updateProgress(90)">
+                <div class="content">
+                    <h2>1954 - 1962</h2>
+                    <h3>Algerian War and Decolonization</h3>
+                    <ul>
+                        <li><strong>Algerian War of Independence:</strong> The FLN launched a war for independence from
+                            France.</li>
+                        <li><strong>Évian Accords:</strong> Algeria gained independence in 1962, ending 132 years of
+                            French colonial rule.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container right" onclick="updateProgress(100)">
+                <div class="content">
+                    <h2>1962 - Present</h2>
+                    <h3>Post-Independence Algeria</h3>
+                    <ul>
+                        <li><strong>Nation Building:</strong> Algeria focused on building its identity and
+                            infrastructure after independence.</li>
+                        <li><strong>Challenges:</strong> The country faced political challenges, economic struggles, and
+                            civil unrest.</li>
+                        <li><strong>Recent Developments:</strong> Algeria has seen changes in leadership and ongoing
+                            social movements for reform.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="MyScript.js">
+    </script>
+</body>
+
+</html>
